@@ -107,27 +107,6 @@ python3 main.py
 
 ---
 
-## Project structure
-
-```
-Humanoid-Robot-/
-├── main.py               # Entry point
-├── config.example.yaml   # Configuration template
-├── requirements.txt
-│
-├── core/
-│   ├── speech.py         # Mic input + ASR
-│   ├── ai.py             # LLM interface
-│   ├── tts.py            # Text-to-speech
-│   └── servo.py          # Servo controller
-│
-├── cad/                  # All 3D printable files (.stl / .step)
-│
-├── assets/images/        # Photos and diagrams
-│
-└── docs/                 # Hardware setup, quickstart, wiring
-```
-
 ---
 
 ## CAD & 3D printing
