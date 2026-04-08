@@ -27,7 +27,6 @@
     </tr>
   </table>
 </p>
----
 
 ## 📖 Overview
 
