@@ -151,24 +151,26 @@ ollama pull tinyllama
 ## Folder structure
 Humanoid-Robot-/
 │
-├── main.py                  ← entry point, run this to start the robot
-├── config.yaml              ← your local config (not tracked by git)
-├── config.example.yaml      ← safe template to share on GitHub
-├── requirements.txt         ← all Python dependencies
-├── .gitignore               ← keeps config.yaml and cache out of git
+├── 📄 main.py                    ← entry point — run this to start the robot
+├── ⚙️  config.yaml               ← your local config (git ignored, never committed)
+├── ⚙️  config.example.yaml       ← safe config template for GitHub
+├── 📦 requirements.txt           ← all Python dependencies
+├── 🚫 .gitignore                 ← keeps secrets and cache out of git
 │
-├── docs/
-│   ├── quickstart.md        ← step-by-step setup for first time users
-│   └── hardware-setup.md    ← wiring guide and GPIO pin map
+├── 📁 docs/
+│   ├── 📖 quickstart.md          ← first time setup walkthrough
+│   └── 🔌 hardware-setup.md      ← wiring guide and GPIO pin map
 │
-├── cad/                     ← all 3D printable structural files
-│   └── *.stl / *.step
+├── 📁 cad/
+│   └── 🖨️  *.stl / *.step        ← all 3D printable structural files
 │
-└── assets/
-└── images/
-├── robot-main.jpeg  ← front view photo
-├── cad-design.png   ← CAD render
-└── diagram.png      ← system flow diagram
+└── 📁 assets/
+└── 📁 images/
+├── 🤖 robot-main.jpeg    ← front view photo
+├── 🧩 cad-design.png     ← CAD render
+└── 🔄 diagram.png        ← system flow diagram
+
+> ⚠️ `config.yaml` holds your API key — it is blocked by `.gitignore` and will never be pushed to GitHub. Only edit `config.example.yaml` when changing config structure.
 
 ---
 
