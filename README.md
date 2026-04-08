@@ -27,9 +27,6 @@
     </tr>
   </table>
 </p>
-
-> 📌 Add or remove images as needed (just keep filenames consistent)
-
 ---
 
 ## 📖 Overview
