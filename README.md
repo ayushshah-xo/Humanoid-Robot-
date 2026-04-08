@@ -1,7 +1,7 @@
 <!-- 🔥 Banner -->
 
 <p align="center">
-  <img src="assets/banner.png" alt="Gemini_Generated_Image_hzcjhthzcjhthzcj.png" width="100%">
+  <img src="assets/images/banner.png" width="100%">
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AI+Powered+Humanoid+Robot;Voice+Assistant+%2B+Facial+Expressions;Built+with+Raspberry+Pi+4;Exhibition+Ready+Project">
@@ -21,9 +21,14 @@
 <p align="center">
   <table>
     <tr>
-      <td><img src="images/Gemini_Generated_Image_i81mdpi81mdpi81m.png" width="250"/></td>
-      <td><img src="my_robbot.jpeg" width="250"/></td>
-      <td><img src="my_robbot.jpeg" width="250"/></td>
+      <td><img src="assets/images/robot-main.jpg" width="250"/></td>
+      <td><img src="assets/images/cad-design.png" width="250"/></td>
+      <td><img src="assets/images/robot-side.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><img src="assets/images/diagram.png" width="250"/></td>
+      <td><img src="assets/images/robot-main.jpg" width="250"/></td>
+      <td><img src="assets/images/cad-design.png" width="250"/></td>
     </tr>
   </table>
 </p>
