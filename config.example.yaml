@@ -1,0 +1,24 @@
+# ─── API Keys ─────────────────────────────────────────────────
+groq:
+  api_key: "gsk_xxxxxxxxxxxxxxxx"   # get from console.groq.com
+
+# ─── Audio Settings ───────────────────────────────────────────
+audio:
+  output_card: 2        # hw:2,0 = 3.5mm jack (check with: aplay -l)
+  input_device: 1       # mic device index (check with: python3 -m speech_recognition)
+  espeak_speed: 150
+  espeak_pitch: 30
+
+# ─── Servo Settings ───────────────────────────────────────────
+servo:
+  jaw_closed: 61
+  jaw_open: 108
+  brow_down: 30
+  brow_up: 120
+
+# ─── AI Settings ──────────────────────────────────────────────
+ai:
+  groq_model: "llama-3.3-70b-versatile"
+  ollama_model: "tinyllama"
+  max_tokens: 100
+  personality: "You are Sukuna, a powerful and direct being. Answer every question in 1-2 short sentences only. Never be wordy."
