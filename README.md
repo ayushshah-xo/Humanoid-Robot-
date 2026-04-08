@@ -106,6 +106,48 @@ python3 main.py
 > **First time?** See [`docs/quickstart.md`](docs/quickstart.md) for a step-by-step walkthrough including hardware connection and audio device setup.
 
 ---
+## Libraries
+
+Two kinds of dependencies power this project — Python packages and system-level tools.
+
+**Python packages** — installed via pip:
+
+| Package | Purpose |
+|---|---|
+| `adafruit-circuitpython-servokit` | PCA9685 servo driver control |
+| `groq` | Online AI via Groq (Llama 3) |
+| `SpeechRecognition` | Converts microphone audio to text |
+| `pyaudio` | Raw audio stream for the mic |
+| `requests` | HTTP calls to Groq and Ollama |
+| `pyyaml` | Reads `config.yaml` at startup |
+
+```bash
+pip install -r requirements.txt
+```
+
+**System packages** — installed via apt:
+
+| Package | Purpose |
+|---|---|
+| `espeak` | Offline text-to-speech engine |
+| `python3-pyaudio` | PyAudio system binding |
+| `portaudio19-dev` | Audio I/O backend |
+| `alsa-utils` | Audio device control (`aplay`, `alsamixer`) |
+
+```bash
+sudo apt install espeak python3-pyaudio portaudio19-dev alsa-utils
+```
+
+**Offline AI engine** — Ollama runs locally on the Pi as a fallback when there is no internet:
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull tinyllama
+```
+
+> The robot automatically switches between Groq (online) and Ollama (offline) — no manual intervention needed.
+
+---
 
 ---
 
