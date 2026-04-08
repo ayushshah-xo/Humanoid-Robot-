@@ -67,17 +67,6 @@ Built on a **Raspberry Pi 4**, it is modular, expandable, and ideal for exhibiti
 * Custom 3D Printed Parts
 * Servo Driver
 
----
-
-## 💻 Software Stack
-
-* Python 3
-* speech_recognition
-* pyttsx3
-* requests
-* GPIO / PWM libraries
-
----
 
 ## 🧪 System Architecture
 
@@ -94,24 +83,6 @@ Text-to-Speech
     ↓
 Audio Output → Mouth Animation → Servo Motors
 ```
-
----
-
-## 📁 Project Structure
-
-```
-humanoid-robot/
-│── main.py
-│── voice/
-│── motors/
-│── api/
-│── cad/
-│── assets/images/
-│── requirements.txt
-│── README.md
-```
-
----
 
 ## 🚀 Installation
 
