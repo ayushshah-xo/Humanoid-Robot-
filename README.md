@@ -170,8 +170,8 @@ Humanoid-Robot-/
     ├── 🤖 robot-main.jpeg  → Front view
     ├── 🧩 cad-design.png   → CAD render
     └── 🔄 diagram.png      → System flow
-
-
+    
+> ⚠️ config.yaml holds your API key — it is blocked by .gitignore and will never be pushed to GitHub. Only edit config.example.yaml when changing config structure.
 ---
 
 ## CAD & 3D printing
