@@ -21,14 +21,14 @@
 <p align="center">
   <table>
     <tr>
-      <td><img src="assets/images/robot1.jpg" width="250"/></td>
-      <td><img src="assets/images/robot2.jpg" width="250"/></td>
-      <td><img src="assets/images/robot3.jpg" width="250"/></td>
+      <td><img src="images/Gemini_Generated_Image_i81mdpi81mdpi81m.png" width="250"/></td>
+      <td><img src="Gemini_Generated_Image_kq51r6kq51r6kq51.png" width="250"/></td>
+      <td><img src="my robbot .jpeg" width="250"/></td>
     </tr>
     <tr>
-      <td><img src="assets/images/robot4.jpg" width="250"/></td>
-      <td><img src="assets/images/robot5.jpg" width="250"/></td>
-      <td><img src="assets/images/robot6.jpg" width="250"/></td>
+      <td><img src="images/Screenshot 2026-01-12 215728.png" width="250"/></td>
+      <td><img src="images/robot5.jpg" width="250"/></td>
+      <td><img src="images/robot6.jpg" width="250"/></td>
     </tr>
   </table>
 </p>
