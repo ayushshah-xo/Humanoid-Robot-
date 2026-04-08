@@ -73,7 +73,7 @@ The servo controller runs in a separate thread so facial animation stays in sync
 | Component | Purpose |
 |---|---|
 | Raspberry Pi 4 | Main compute |
-| Servo motors (×N) | Face actuation |
+| Servo motors (×3) | Face actuation |
 | Servo driver board | PWM control via I²C |
 | USB microphone | Speech input |
 | Speaker + amplifier | Audio output |
